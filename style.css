@@ -161,7 +161,7 @@ header a:active {
   align-items: center;
   background-color: #fff;
   border-top: solid 20px black;
-  height: 500px;
+  min-height: 500px;
   max-width: 1920px;
   margin: auto;
 }
