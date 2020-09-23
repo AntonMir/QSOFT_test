@@ -1,0 +1,88 @@
+/* NAVIGATION BAR */
+@media screen and (max-width: 900px) {
+
+  .nav li:nth-of-type(4) {
+    display: none;
+  }
+
+}
+
+@media screen and (max-width: 560px) {
+
+  .nav {
+    font-size: 3vw;
+    padding: 0 0 1vw 0;
+  }
+
+}
+
+@media screen and (min-width: 1920px) {
+
+  .navbar {
+    padding: 0 250px;
+    font-size: 200%;
+  }
+
+  .navbar img {
+    height: 128px;
+    width: 441px;
+  }
+
+  .nav li {
+    margin: auto 17px;
+    line-height: 10%;
+  }
+
+  .nav li:nth-of-type(4) {
+    margin-left: 60px;
+  }
+
+}
+
+/* ---------- HEADER ---------- */
+@media screen and (min-width: 1920px) {
+
+  header {
+    font-size: 30px;
+  }
+
+  header a {
+    padding: 30px 90px;
+    font-size: 40px;
+    margin-top: 50px;
+  }
+
+}
+
+/* ---------- NEWS ---------- */
+@media screen and (min-width: 1920px) {
+
+
+  .news h1 {
+    font-size: 40px;
+    margin: 90px 0 85px;
+  }
+  
+  .news_item {
+    width: 426px;
+    font-size: 30px;
+  }
+}
+
+/* ---------- FOOTER ---------- */
+@media screen and (min-width: 1920px) {
+
+  #footer {
+    padding: 0 200px;
+  }
+  
+  #footer p {
+    font-size: 25px;
+  }
+
+  #footer a {
+    font-size: 25px;
+    padding: 20px 40px 24px;
+  }
+
+}
